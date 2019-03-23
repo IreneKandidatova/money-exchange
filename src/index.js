@@ -26,4 +26,4 @@ module.exports = function makeExchange(currency) {
     if (QNumber == 0) { delete result.Q};
     if (HNumber == 0) { delete result.H};
    return result
-}
+};
